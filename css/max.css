@@ -1,0 +1,42 @@
+/*Style file for big screens*/
+    .container {
+        display: flex;
+        margin: 3rem 8rem;
+    }
+
+   /*woman picture picker*/
+    .images div:first-child {
+        overflow: hidden;
+        background-image: url(/images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-origin: padding-box;
+        background-position: -35rem -20rem;
+        height: 100%;
+        background-size: 70rem 70rem;
+
+    }
+
+    .images div:first-child img {
+
+        position: relative;
+        left: -7.2rem;
+        top: 4.5rem;
+    }
+
+    /*box with the @ sign*/
+    .images div:last-child {
+        position: absolute;
+        top: 17rem;
+        left: -11rem;
+    }
+
+
+    .Questions {
+        max-width: 30rem;
+        float: left;
+        padding: 8.5rem 8.5rem 8.5rem 0px;
+    }
+
+   
+
+

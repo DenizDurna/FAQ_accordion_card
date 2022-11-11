@@ -1,0 +1,48 @@
+.container {
+    margin: 3rem;
+    margin-top: 20rem;
+
+}
+
+.images {
+    padding: 0 15%;
+}
+
+.images div:first-child img {
+    position: absolute;
+    top: -16rem;
+    
+filter: drop-shadow(0rem 4rem 1px hsl(237, 12%, 33%));
+
+}
+
+.images div:last-child {
+    display: none;
+}
+
+
+.Questions {
+    padding: 15rem 2rem 2rem;
+    max-width: 40rem;
+}
+
+
+@media (max-width:700px) {
+
+
+    .container {
+
+        margin-top: 30vw;
+
+    }
+
+    .images div:first-child img {
+        top: -28vw;
+        filter: drop-shadow(0vw 7vw 1px hsl(237, 12%, 33%));
+    }
+
+ 
+
+}
+
+
